@@ -5,7 +5,6 @@ Este repositório contém exemplos de código e um guia para programar utilizand
 ## Índice
 
 - [Introdução](#introdução)
-- [Exemplos de Código](#exemplos-de-código)
 - [Como Salvar um Código em Portugol](#como-salvar-um-código-em-portugol)
   - [Usando o Portugol Studio](#usando-o-portugol-studio)
   - [Usando o Portugol Online](#usando-o-portugol-online)
