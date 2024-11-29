@@ -1,52 +1,3 @@
-
-/* CLIQUE NO SINAL DE "+", À ESQUERDA, PARA EXIBIR A DESCRIÇÃO DO EXEMPLO
- *  
- * Copyright (C) 2014 - UNIVALI - Universidade do Vale do Itajaí
- * 
- * Este arquivo de código fonte é livre para utilização, cópia e/ou modificação
- * desde que este cabeçalho, contendo os direitos autorais e a descrição do programa, 
- * seja mantido.
- * 
- * Se tiver dificuldade em compreender este exemplo, acesse as vídeoaulas do Portugol 
- * Studio para auxiliá-lo:
- * 
- * https://www.youtube.com/watch?v=K02TnB3IGnQ&list=PLb9yvNDCid3jQAEbNoPHtPR0SWwmRSM-t
- * 
- * Descrição:
- * 
- * 	Este exemplo é um Jogo de corrida escrito em Portugol (ainda em desenvolvimento).
- * 	O exemplo demonstra como utilizar algumas das bibliotecas existentes no Portugol. 
- * 	Neste exemplo, também é possível ver algumas técnicas utilizadas na criação de jogos.
- * 	
- * 	O objetivo do jogo é conduzir o veículo do jogador até linha de chegada. O combustível
- * 	vai diminuindo ao longo do tempo, portanto o jogador deve ir pegando os galões de combustível 
- * 	existentes na pista. Caso contrário, o combustível acaba e o veículo do jogador para.
- * 	
- * 	O jogador também deve desviar dos outros veículos na pista. Se o jogador colidir na traseira 
- * 	ou na lateral de outro veículo irá tomar danos proporcionais à velocidade dos dois veículos 
- * 	e o veículo do jogador irá perder velocidade (em alguns casos até parar).
- * 	
- * 	Se outro veículo colidir atrás do jogador, o jogador irá tomar danos proporcionais à velocidade 
- *	os dois veículos. No entanto, o veículo do jogador será arremessado para frente, ganhando velocidade. 
- *	Esta pode ser uma estratégia útil quando o combustível estiver acabando.
- * 	
- * 	Para reverter os danos causados ao veículo, o jogador deve passar nos pontos de reparo que estão
- * 	espalhados pela pista.
- * 	
- * 	Música e efeitos sonoros: 
- * 	
- * 		FreeSFX (http://www.freesfx.co.uk/info/eula)
- * 		SoundJay (http://www.soundjay.com)	
- * 	
- * 	Fonte: http://www.dafont.com/pt/poetsen-one.font
- * 
- * Autores:
- * 
- * 	Luiz Fernando Noschang (noschang@univali.br)
- * 	
- * Data: 07/12/2013
- */
-
 programa
 {
 	inclua biblioteca Graficos --> g
@@ -1378,16 +1329,3 @@ programa
 		g.liberar_imagem(imagem_objetos)
 	}
 }
-
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 2144; 
- * @DOBRAMENTO-CODIGO = [1, 175, 190, 203, 218, 226, 233, 246, 274, 290, 319, 332, 342, 354, 369, 378, 388, 392, 398, 403, 407, 412, 417, 421, 426, 367, 359, 435, 440, 445, 450, 458, 463, 474, 485, 496, 502, 494, 511, 519, 564, 555, 544, 542, 619, 606, 647, 634, 662, 682, 689, 696, 703, 714, 718, 722, 710, 728, 737, 745, 752, 757, 785, 811, 833, 859, 881, 886, 901, 931, 941, 946, 961, 978, 992, 1035, 1043, 1064, 1085, 1106, 1115, 1129, 1140, 1150, 1160, 1198, 1204, 1231, 1255, 1273, 1281, 1293, 1312, 1324, 1310, 1332, 1338, 1330, 1346, 1352, 1344, 1358, 1367, 1373];
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
